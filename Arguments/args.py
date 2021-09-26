@@ -27,3 +27,4 @@ def arglists():
     parser.add_argument("--S_x", type=int, default=25, help="地图采样方格的横轴长度")
     parser.add_argument("--S_y", type=int, default=25, help="地图采样方格的纵轴长度")
     return parser.parse_args()
+  
